@@ -1,3 +1,4 @@
+import AuthModal from "@/app/components/Modals/AuthModal";
 import NavBar from "@/app/components/Navbar";
 import React from "react";
 
@@ -9,6 +10,7 @@ const AuthPage = () => {
         <div className="flex items-center justify-center h-[calc(100vh-5rem)] pointer-events-none select-none">
           <img src="/hero.png" alt="Hero img" width={700} height={700} />
         </div>
+        <AuthModal/>
       </div>
     </div>
   );
