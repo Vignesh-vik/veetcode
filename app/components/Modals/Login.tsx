@@ -3,7 +3,7 @@ const Login = () => {
     
   return (
     <form className='space-y-6 px-6 pb-4'>
-			<h3 className='text-xl font-medium text-white'>Sign in to LeetClone</h3>
+			<h3 className='text-xl font-medium text-white'>Sign in to VeetClone</h3>
 			<div>
 				<label htmlFor='email' className='text-sm font-medium block mb-2 text-gray-300'>
 					Your Email
@@ -38,21 +38,21 @@ const Login = () => {
 			</div>
 
 			<button
-				type='submit'
+				// type='submit'
 				className='w-full text-white focus:ring-blue-300 font-medium rounded-lg
-                text-sm px-5 py-2.5 text-center bg-brand-orange hover:bg-brand-orange-s
+                text-sm px-5 py-2.5 text-center bg-orange-400 hover:bg-black
             '
 			>
-				{/* {loading ? "Loading..." : "Log In"} */}
+			Log In
 			</button>
 			<button className='flex w-full justify-end'>
-				<a href='#' className='text-sm block text-brand-orange hover:underline w-full text-right'>
+				<a href='#' className='text-sm underline block text-orange-400 hover:underline w-full text-right'>
 					Forgot Password?
 				</a>
 			</button>
 			<div className='text-sm font-medium text-gray-300'>
 				Not Registered?{" "}
-				<a href='#' className='text-blue-700 hover:underline'>
+				<a href='#' className='text-white font-bold hover:underline'>
 					Create account
 				</a>
 			</div>

@@ -1,6 +1,8 @@
 import React from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import Login from "./Login";
+import Signup from "./Signup";
+import ResetPassword from "./ResetPassword";
 
 const authModalAtom = () => {
   return (
@@ -17,7 +19,7 @@ const authModalAtom = () => {
                 <IoCloseSharp/>
               </button>
             </div>
-            <Login/>
+            <ResetPassword/>
           </div>
         </div>
       </div>
